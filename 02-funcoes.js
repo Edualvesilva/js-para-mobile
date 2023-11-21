@@ -26,9 +26,7 @@ exemplo2()
 3) Mostre os valores processados pela função no terminal
 */
 
-function exercicio(valor1,valor2){
-    return Math.abs(valor1 - valor2)
-}
+const exercicio = (valor1,valor2) => Math.abs(valor1 - valor2)
 
 let resultado1 = exercicio(10,5)
 let resultado2 = exercicio(10,20)
@@ -60,9 +58,8 @@ const saudacao = cliente => console.log("Olá "+cliente)
 saudacao("Fulano")
 saudacao("Beltrano")
 
-const calculaMetade = (valor) => {
-    return valor / 2
-}
+// Arrow Function com retorno IMPLÍCITO
+const calculaMetade = valor => valor / 2
 
 let resultadoA = calculaMetade(100)
 let resultadoB = calculaMetade(500)
