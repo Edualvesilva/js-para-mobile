@@ -67,3 +67,20 @@ let resultadoB = calculaMetade(500)
 
 console.log(resultadoA);
 console.log(resultadoB);
+
+console.log("----------------------");
+
+/* Exercicios
+
+1) Monte um Arrow Function que receba um nome de uma pessoa e converta este nome para letras maiúsculas.
+
+2) Chame a função 3x (passando nomes diferentes) e exibindo no console os resultados
+*/
+
+const exercicio2 = nome => nome.toUpperCase()
+
+let tentativa1 = exercicio2("eduardo")
+let tentativa2 = exercicio2("jose")
+
+console.log(tentativa1);
+console.log(tentativa2);
