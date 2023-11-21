@@ -26,6 +26,7 @@ exemplo2()
 3) Mostre os valores processados pela função no terminal
 */
 
+// Arrow Function simplificada (sem chaves, return implicito)
 const exercicio = (valor1,valor2) => Math.abs(valor1 - valor2)
 
 let resultado1 = exercicio(10,5)
