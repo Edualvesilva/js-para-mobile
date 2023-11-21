@@ -44,3 +44,28 @@ const exemplo3 = () => {
 }
 
 exemplo3()
+
+//const saudacao = (cliente) => {
+ //   console.log("olá "+cliente)
+// }
+
+// Omitir os parênteses do parâmetro (SOMENTE QUANDO FOR 1)
+
+//const saudacao = cliente => {
+//    console.log("olá "+cliente)
+// }
+
+// Omitir as {} (SOMENTE QUANDO FOR UMA ÚNICA INSTRUÇÃO)
+const saudacao = cliente => console.log("Olá "+cliente)
+saudacao("Fulano")
+saudacao("Beltrano")
+
+const calculaMetade = (valor) => {
+    return valor / 2
+}
+
+let resultadoA = calculaMetade(100)
+let resultadoB = calculaMetade(500)
+
+console.log(resultadoA);
+console.log(resultadoB);
