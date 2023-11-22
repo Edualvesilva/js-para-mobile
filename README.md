@@ -23,3 +23,6 @@ Nas bibliotecas e frameworks as sintaxes mais comuns são Arrow Function e Nomea
 
 **Obs.::** caso utilize as sintaxes anônima ou arrow, certifique-se de **primeiro** declarar a função para só depois chamá-la.
 
+### Template Literal/String
+
+Forma mais moderna de manipular dados estáticos e dinâmicos, além de permitir de uma forma mais fácil executar operações dentro de strings/códigos. Lembre-se do uso das **crases** e do bloco `${}` para execuções de código dinâmico (váriveis,constantes,funções,etc).
