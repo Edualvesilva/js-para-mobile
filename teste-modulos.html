@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando módulo JS</title>
+</head>
+<body>
+    <h1>Acessando módulos JS</h1>
+    <hr>
+    <ul></ul>
+    <script type="module">import {pessoa} from "./modulos/dados.js"
+    console.log(pessoa);
+    const lista = document.querySelector("ul")
+    for(const prop in pessoa){
+        let item = document.createElement("li")
+        item.innerHTML = pessoa[prop]
+        lista.appendChild(item)
+    }
+    </script>
+</body>
+</html>
