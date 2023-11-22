@@ -4,4 +4,13 @@ const pessoa = {
     cidade: 'São Paulo'
 }
 
-export default pessoa
+const livro = {
+    titulo : "O Senhor dos Anéis",
+    volume: "As Duas Torres",
+    ano: 1954
+}
+
+/* Se for exportação de somente UM recurso usamos export default nomeDoRecurso */
+// export default pessoa
+
+export {pessoa,livro}
