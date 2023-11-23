@@ -26,7 +26,7 @@ console.log("--------------");
 
 const recursos = [
     ["Notebook","TV led","Computador Desktop"],
-    function(texto){return texto.toUpperCase()}
+    texto => texto.toUpperCase()
 ]
 
 console.log(recursos); // array completo
@@ -39,3 +39,7 @@ console.log(produtos[1]); // TV led
 for(const produto of produtos){
     console.log("Produto: "+produto);
 }
+
+console.log(converter("edu"));
+console.log(converter("geladeira"));
+console.log(converter(produtos[0]));
