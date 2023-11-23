@@ -68,8 +68,8 @@ console.log(preco);
 console.log("--------------");
 
 //Destructuring para parâmetros de função
-function exibirDados(objeto){
-    console.log(`Filme: ${objeto.titulo} - Ano de lançamento: ${objeto.ano}`);
+function exibirDados({titulo,ano}){
+    console.log(`Filme: ${titulo} - Ano de lançamento: ${ano}`);
 }
 
 const filme1 = {
