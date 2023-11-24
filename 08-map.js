@@ -31,3 +31,8 @@ const novosPrecos = cursos.map(curso => {
 
 console.log("------ Exercicio");
 console.log(novosPrecos);
+
+/* Simplificar a arrow function: é necessário envolver o código de return implícito com parênteses. */
+const novosPrecos1 = cursos.map(curso =>  ({...curso, preco: curso.preco * 0.9}))
+
+console.log(novosPrecos1);
