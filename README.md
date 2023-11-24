@@ -44,3 +44,19 @@ Ao importar  apenas **um recurso**,utiliza-se `import nomeDoRecurso from "local/
 ### Destructuring (Desestrução)
 
 Técnica para extrair valores de arrays e objetos para novas variáveis/constantes. Usada para simplificar o acesso a estes dados, podendo ser aplicada também em parâmetros de funções.
+
+### Métodos para iteração em arrays: map,filter e reduce
+
+São métodos que permitem realizar operações diversas em elementos de arrays. Funcionam como `loops` especias, executando uma função conhecida como `callback` para cada elemento dentro do array.
+
+ ### map
+
+ Percorre os elementos do array e executa algum tipo de transformação,gerando um novo array de dados.
+
+ ### filter
+
+ Percorre os elementos do array filtrando seus valores de acordo com uma ou mais condições, gerando um novo array de dados.
+
+ ### reduce
+
+ Percorre os elementos do array realizando operações (soma,multiplicação,concatenação etc), gerando um único resultado.
