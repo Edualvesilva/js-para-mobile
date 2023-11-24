@@ -39,3 +39,13 @@ console.log(cursosMenosDesign);
 
 const criterioso = cursos.filter(curso =>curso.preco >=600 && curso.categoria === "Front-End" || curso.categoria === "Mobile")
 console.log(criterioso);
+
+const encadeamento = cursos.filter(curso => curso.titulo == "React Native" || curso.titulo == "Flutter").map(curso => curso.titulo )
+console.log("-----------");
+console.log(encadeamento);
+
+
+
+
+
+
