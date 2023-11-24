@@ -25,6 +25,6 @@ const resultado = cursos.reduce((acumulador,curso)=> acumulador+ curso.preco,0)
 console.log(resultado);
 
 /* Exercicio 2: faça a soma dos preços dos cursos de front e back-end */
-
-
-
+const desafio = cursos.filter(curso=>curso.categoria == "Back-End" || curso.categoria == "Front-End")
+.reduce((acumulador,curso)=>{return acumulador + curso.preco},0)
+console.log(desafio);
